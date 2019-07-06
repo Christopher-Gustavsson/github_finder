@@ -8,7 +8,7 @@ const Navbar = props => {
         <nav className='navbar bg-primary'>
             <h1>
                 <Link to='/'>
-                    <i className={icon} />{title}
+                    <i className={icon} />{` ${title}`}
                 </Link>
             </h1>
             <ul>
